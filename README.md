@@ -1,12 +1,4 @@
 # Sentiment-Analysis-with-Python
-This project follows my work learning sentiment analysis coding on python. The first project starts with a tutorial by Shaumik Daityari where I learned how to train Python to register Positive and Negative connotations in Tweets. It went well but the rudimentary code did not seem to assess specific custom tweets like the one below 
+This project follows my work learning sentiment analysis coding on python. Here you will find the base code to the sentiment analysis by Shaumik Daityari. This analysis is just the original code and will be updated in the future by me so it can filter specific conjunctions such as "did not like". In the current state the code can be used to filter statements into postitive and negative sentiments 
 
-**custom_tweet5 = "I didn't like this product"**
-
-**custom_tokens5 = remove_noise(word_tokenize(custom_tweet5))**
-
-**print(classifier.classify(dict([token, True] for token in custom_tokens5)))**
-
-**Positive**
-
-It seems tha the output of the algorithm does not register conjunctions as negative or positive and instead assessed "like" as a positive term. This means that further coding will have to be performed for the language software to learn the negative connotaions of "didn't like". 
+You will also find another peice of code that is used to filter sentiments into specific emotions. This code was created by Attreya bhatt and was updated and used for my end of term project at Central Washington University as seen in my portfolio. 
